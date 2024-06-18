@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    background-image: url("/static/background-sobre.jpg");
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    color: #313131;
+}
+
+p {
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 2em;
+    color: #000000;
+}
+
+form {
+    text-align: center;
+    margin-top: 5px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer; /* Makes it clear that the element is clickable */
+}
+
+button {
+    background-color: #2f496a;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7b8fb0; /* Lightens the button on hover */
+}
+
+img {
+    max-width: 25%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    padding-top: 10px; /* Adds some space above the image */
+}
